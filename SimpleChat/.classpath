@@ -17,5 +17,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/de.tum.in.www1.jReto-1.0-jar-with-dependencies.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt"/>
+	<classpathentry kind="lib" path="lib/miglayout-swing.jar" sourcepath="lib/miglayout-swing-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SimpleChatJava/lib/miglayout-swing-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/miglayout-core.jar" sourcepath="lib/miglayout-core-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SimpleChatJava/lib/miglayout-core-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
